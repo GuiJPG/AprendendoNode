@@ -1,0 +1,8 @@
+// Espera ser totalmente executado para processeguir.
+const fs = require('fs');
+
+console.log("Inicio");
+
+fs.writeFileSync('arquivo.txt', 'oi');
+
+console.log('Fim');
